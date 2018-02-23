@@ -1,0 +1,343 @@
+@font-face{
+	font-family: PingFang bold;
+	src: url('../fonts/PingFang Bold_0.ttf');
+}
+@font-face{
+	font-family: PingFang heavy;
+	src: url('../fonts/PingFang Heavy_0.ttf');
+}
+@font-face{
+	font-family: sf-regular;
+	src: url('../fonts/sanfranciscodisplay-regular-webfont.ttf');
+}
+@font-face{
+	font-family: sf-semibold;
+	src: url('../fonts/sanfranciscodisplay-semibold-webfont.ttf');
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family:PingFang bold;
+	font-size:0.24rem;
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	height: 13.34rem;
+	position: relative;
+}
+img{display: block;}
+.container{
+	width: 7.02rem;
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.bg{
+	background: #fafafa;
+	overflow:hidden;
+	position: relative;
+}
+.nav{
+	overflow: hidden;
+	height: 2.68rem;
+	padding-top: 0.24rem;
+  background-image:linear-gradient( 0deg, rgb(41,130,255) 0%, rgb(45,149,255) 100%);
+
+}
+.nav-box{
+	overflow: hidden;
+}
+.back{
+	height: 0.24rem;
+	width:0.4rem;
+	background-color: #226ed7;
+	border-radius:0.12rem;
+	margin-bottom: 0.12rem;
+}
+.back div{
+	height: 0.24rem;
+	width:0.4rem;
+	background:url('../images/back@2x.png');
+	background-size: 0.24rem 0.24rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.navicon{
+	width: 0.54rem;
+	height: 0.54rem;
+	
+	margin-top:0.12rem;
+}
+.navicon img{
+	width: 0.54rem;
+	height: 0.54rem;
+}
+.title{
+  font-size: 0.58rem;
+line-height: 0.58rem;
+  color: rgb(255, 255, 255);
+margin: 0.12rem 0 0.12rem;
+
+}
+
+
+.content-box{
+	margin-top: -1.3rem;
+}
+.content{
+	width: 6.54rem;
+	padding: 0.24rem;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 0.08rem;
+	margin-bottom: 0.12rem;
+	box-shadow: 0 4rem 30rem 0rem rgba(0, 0, 0, 0.08);
+
+}
+.con-top{
+	margin-bottom: 0.21rem;
+	overflow: hidden;
+	width: 6.54rem;
+}
+.profile{
+	width: 0.72rem;
+	height: 0.72rem;
+	border-radius: 50%;
+}
+.profile img{
+	width: 0.72rem;
+	height: 0.72rem;
+}
+.message{
+	height: 0.72rem;
+}
+.message h2{
+	font-size: 0.26rem;
+	line-height: 0.26rem;
+	color: rgba(0, 0, 0, 0.6);
+	margin:0.08rem 0.12rem;
+}
+.message h3{
+	font-size: 0.2rem;
+	color: rgba(0, 0, 0, 0.30);
+	line-height: 0.2rem;
+	margin-left: 0.12rem;
+	margin-top: 0.04rem;	
+}
+.more{
+	width: 1.16rem;
+	height: 0.5rem;
+	background: url('../images/follow@2x.png');
+	background-size: 1.16rem 0.5rem;
+	background-position: center center;
+	margin-top: 0.14rem;
+	border-radius: 0.25rem;
+  box-shadow: 0 2rem 10rem 0rem rgba(82, 248, 133, 0.6);
+
+}
+.describe{
+	clear: both;
+	color: rgba(0, 0, 0, 0.6);
+	line-height:0.30rem;
+	padding-top: 0.09rem;
+}
+.img-one{
+	margin-bottom: 0.24rem;
+	border-radius: 0.06rem;
+	box-shadow: 0 1rem 15rem 0rem rgba(230, 230, 230, 0.75);
+
+}
+.img-one>img{
+	width: 6.54rem;
+	height: 2.34rem;
+
+}
+
+
+.con-foot{
+	width: 6.54rem;
+}
+.tag{
+	line-height: 0.2rem;
+	color:rgba(0, 0, 0, 0.40);
+	font-size: 0.2rem;
+	text-align: center;
+}
+
+.comment div:nth-child(2){
+	width: 0.28rem;
+	height: 0.28rem;
+	background: url('../images/decorate.png');
+	background-size:0.28rem 0.28rem; 
+	float: right;
+	margin-right: 0.1rem;
+	margin-left: 0.24rem;
+}
+
+.comment p{
+	margin:0.03rem 0;
+	float: right;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+/* 评 论  部 分 */
+.foot-box{
+	margin-top: 0.24rem
+}
+.foot-title{
+	overflow: hidden;
+	margin-bottom: 0.24rem;
+}
+.foot-title-icon{
+	width: 0.04rem;
+	height: 0.26rem;
+	background: url('../images/title-icon.png');
+	background-size: 0.04rem 0.26rem;
+	margin-right: 0.12rem;
+}
+.foot-title span{
+	display: block;
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	color: rgba(0, 0, 0, 0.6);
+
+}
+/* 评论内容 */
+.foot-message{
+	background: #fff;
+	border-radius: 0.08rem;
+	box-shadow: 0 1rem 15rem 0rem rgba(217, 217, 217, 0.75);
+	overflow: hidden;
+	width: 7.02rem;
+	margin: 0 auto;
+	margin-bottom: 0.12rem;
+}
+.msg-profile{
+	width: 0.72rem;
+	height: 0.72rem;
+	border-radius: 50%;
+	margin: 0.24rem 0.12rem 0.24rem 0.24rem;
+}
+.msg-profile img{
+	width: 0.72rem;
+	height: 0.72rem;
+}
+.input-box{
+  	border-radius: 0.06rem;
+  	background-color: rgba(0, 0, 0,0.03);
+	width: 4.29rem;
+  	height: 0.50rem;
+  	margin: 0.34rem 0;
+}
+.input-box span{
+
+	color: rgba(0, 0, 0, 0.3);
+	line-height: 0.5rem;
+	text-align:left;
+	margin-left: 0.12rem;
+}
+.msg-btn{
+	width: 1.16rem;
+	height: 0.5rem;
+	box-shadow: 0 2rem 10rem 0rem rgba(111, 169, 249, 0.87);
+	background: url('../images/msg-btn@2x.png');
+	background-size: 1.16rem 0.5rem;
+	border-radius: 0.25rem;
+	margin: 0.34rem 0.24rem;
+}
+.foot-message2{
+	background: #fff;
+	border-radius: 0.08rem;
+	box-shadow: 0 1rem 15rem 0rem rgba(217, 217, 217, 0.75);
+	overflow: hidden;
+	width: 6.54rem;
+	padding: 0.24rem;
+	margin: 0 auto;
+	margin-bottom: 0.12rem;
+}
+.menu{
+	width: 0.22rem;
+	height: 0.1rem;
+	background: url('../images/con-more.png');
+	background-size: 0.22rem 0.1rem;
+	background-position: center center;
+	margin-top: 0.04rem;
+}
+.msg-content{
+	clear: both;
+	color: rgba(0, 0, 0, 0.6);
+	line-height:0.36rem;
+	padding-top: 0.12rem;
+}
+.reply{
+	width: 5.82rem;
+	height: 0.22rem;
+	padding:0.12rem;
+	margin: 0 auto;
+	border-radius: 0.06rem;
+  	background-color: rgba(0, 0, 0,0.03);
+  	margin-top: 0.06rem;
+  	line-height: 0.24rem;
+  	color:rgba(0, 0, 0,0.6);
+}
+.reply span{
+	color:rgba(38, 130, 255,0.6); 
+}
+.block{
+	height: 0.8rem;
+	background: #fff;
+}
+.foot{
+	width: 7.02rem;
+	height: 0.6rem;
+	padding: 0.24rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.foot-heart{
+	width: 0.36rem;
+	height: 0.36rem;
+	background: url('../images/foot-heart@2x.png');
+	background-size: 0.36rem 0.36rem;
+	margin: 0.12rem 0;
+}
+.foot span{
+	display: inline-block;
+	font-size: 0.26rem;
+	line-height: 0.26rem;
+	margin: 0.17rem 0.12rem;
+	color:rgba(0, 0, 0,0.6); 	
+}
+.btn1{
+	width: 1.8rem;
+	height: 0.6rem;
+	background: url('../images/join@2x.png');
+	background-size: 1.8rem 0.6rem;
+	border-radius: 0.3rem;
+	box-shadow: 0 2rem 10rem 0 rgba(111, 169, 249, 0.87);
+
+}
+.btn2{
+	width: 1.8rem;
+	height: 0.6rem;
+	background: url('../images/contact@2x.png');
+	background-size: 1.8rem 0.6rem;
+	border-radius: 0.3rem;
+	margin-right: 0.24rem;
+	box-shadow: 0 2rem 10rem 0 rgba(127, 255, 163, 0.87);
+
+}

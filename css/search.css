@@ -1,0 +1,245 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-02-22 19:03:48
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-02-23 16:58:16
+*/
+@font-face{
+	font-family: PingFang bold;
+	src: url('../fonts/PingFang Bold_0.ttf');
+}
+@font-face{
+	font-family: PingFang heavy;
+	src: url('../fonts/PingFang Heavy_0.ttf');
+}
+@font-face{
+	font-family: sf-regular;
+	src: url('../fonts/sanfranciscodisplay-regular-webfont.ttf');
+}
+@font-face{
+	font-family: sf-semibold;
+	src: url('../fonts/sanfranciscodisplay-semibold-webfont.ttf');
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family:PingFang bold;
+	font-size:0.24rem;
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	height: 13.34rem;
+	position: relative;
+}
+img{display: block;}
+.container{
+	width: 7.02rem;
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.bg{
+	background: #fafafa;
+	overflow:hidden;
+}
+.bg{
+	background: #fafafa;
+	overflow:hidden;
+	position: relative;
+}
+.nav{
+	overflow: hidden;
+	height: 3.88rem;
+	padding-top: 0.24rem;
+  background-image:linear-gradient( 0deg, rgb(41,130,255) 0%, rgb(45,149,255) 100%);
+
+}
+.nav-box{
+	overflow: hidden;
+}
+.back{
+	height: 0.24rem;
+	width:0.4rem;
+	background-color: #226ed7;
+	border-radius:0.12rem;
+	margin-bottom: 0.12rem;
+}
+.back div{
+	height: 0.24rem;
+	width:0.4rem;
+	background:url('../images/back@2x.png');
+	background-size: 0.24rem 0.24rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.title-box{
+	overflow: hidden;
+}
+.navicon{
+	width: 0.54rem;
+	height: 0.54rem;
+	
+	margin-top:0.12rem;
+}
+.navicon img{
+	width: 0.54rem;
+	height: 0.54rem;
+}
+.title{
+  font-size: 0.58rem;
+line-height: 0.58rem;
+  color: rgb(255, 255, 255);
+margin: 0.12rem 0 0.12rem;
+
+}
+.search-box{
+	clear: both;
+	margin-top: 0.12rem;
+	width: 7.02rem;
+	height: 0.6rem;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 0.3rem;
+}
+.search-dot{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: url('../images/search-dot@2x.png');
+	background-size: 0.1rem 0.1rem;
+	background-position: center center;
+	margin: 0.25rem 0.18rem 0.25rem 0.24rem;
+}
+.search-box span{
+	color: rgba(255, 255, 255, 0.3);
+	line-height: 0.24rem;
+	margin: 0.2rem 0;
+
+}
+.tab-container{
+	width: 6.54rem;
+	margin: 0 auto;
+	margin-top: 0.48rem;
+	overflow: hidden;
+}
+.tab-container>div:nth-child(4){
+	margin-right: 0;
+}
+.tab-box{
+	margin-right: 1.04rem;
+}
+.tab-box img{
+	width: 0.85rem;
+	height: 0.85rem;
+}
+.name{
+	width: 0.85rem;
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	color: rgba(255, 255, 255, 0.6);
+	text-align: center;
+	margin-top: 0.12rem;
+}
+
+
+.foot-title{
+	overflow: hidden;
+	margin-top: 0.48rem;
+}
+.foot-title-icon{
+	width: 0.04rem;
+	height: 0.26rem;
+	background: url('../images/title-icon.png');
+	background-size: 0.04rem 0.26rem;
+	margin-right: 0.12rem;
+}
+.foot-title span{
+	display: block;
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	color: rgba(0, 0, 0, 0.6);
+
+}
+.tip-box{
+	margin-top: 0.24rem;
+	overflow: hidden;
+}
+.tip1{
+	width: 1.10rem;
+	height: 0.6rem;
+	background: rgba(0, 0, 0, 0.03);
+	text-align: center;
+	color: #2982ff;
+	border-radius: 0.3rem;
+	font-size: 0.26rem;
+	line-height: 0.6rem;
+	margin-right: 0.24rem;
+}
+.tip2{
+	width: 1.80rem;
+	height: 0.6rem;
+	background: rgba(0, 0, 0, 0.03);
+	text-align: center;
+	color: #2982ff;
+	border-radius: 0.3rem;
+	font-size: 0.26rem;
+	line-height: 0.6rem;
+	margin-right: 0.24rem;
+}
+.tip3{
+	width: 1.40rem;
+	height: 0.6rem;
+	background: rgba(0, 0, 0, 0.03);
+	text-align: center;
+	color: #2982ff;
+	border-radius: 0.3rem;
+	font-size: 0.26rem;
+	line-height: 0.6rem;
+	margin-right: 0.24rem;
+}
+.tip-box div:nth-child(4){
+	margin-right: 0;
+}
+
+
+.card-container{
+	overflow: auto;
+	margin-top: 0.24rem;
+}
+.card-box{
+	width: 9.2rem;
+}
+.card-box li{
+	width: 2.06rem;
+	height: 2.48rem;
+	margin-left: 0.24rem;
+}
+.card-box li img{
+	width: 2.06rem;
+	height: 2.48rem;
+}
+.recommend{
+	margin-top: 0.24rem;
+	height: 2.2rem;
+}
+.recommend img{
+	width: 7.02rem;
+	height: 2.2rem;
+}
+.mic{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin: 0.34rem auto;
+	background: url('../images/voice-search@2x.png');
+	background-size: 0.7rem 0.7rem;
+	box-shadow: 0px 4px 40px 0px rgba(41, 130, 255, 0.6);
+	border-radius: 50%;
+}
